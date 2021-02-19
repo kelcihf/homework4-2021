@@ -1,0 +1,143 @@
+/*STARTER CODE*/
+
+/*
+We have started some of the selectors for you.
+For others we have provided hints on what the selectors should be.
+There are some missing selectors.
+
+Make sure to learn what the starter code does!!
+*/
+
+/*STARTER CODE - DO NOT CHANGE*/
+main{
+  margin-bottom: 100px;
+}
+
+caption{
+  margin:5px 0px;
+}
+
+tr{
+  -webkit-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+}
+
+/*END STARTER CODE*/
+
+body{
+  color: #000000;
+  font-size: 16px;
+  margin: 1.2em;
+  background-size: cover ;
+  background-image: url('images/pigeon-background.JPEG');
+  background-position: center;
+  background-color: #dddddd;
+  font-family: 'Andika', sans-serif, sans-serif;
+  /*Req 1*/
+}
+
+h1{
+  color: #c12258;
+  font-size: 2em;
+  text-align: center;
+  line-height: 2;
+  /*Req 2*/
+}
+
+p{
+  padding-top: 15;/*Req 3*/
+}
+
+a{
+  color: #b92751;
+  text-decoration-style: wavy;
+  /*Req 4*/
+}
+
+/*Req 5*/
+/*Add selector and rule here*/
+*{
+  border: 3px;
+  border-style: dashed;
+  border-color: #417243;
+}
+
+/*Req 6a*/
+td{
+  align-items: center;
+  border-top: 2px solid #000000;
+  padding: 10px;
+}
+
+/*Req 6b*/
+.colhead{
+  color: #FFFFFF;
+  min-width: 125px;
+  padding: 10px;
+  align-items: center;
+  vertical-align: center;
+  text-transform: uppercase;
+  background-color: #7e0820;
+}
+/*Req 6c*/
+.rowhead{
+  border-top: 2px solid #000000;
+  border-right: 2px solid #000000;
+}
+
+/*Req 6d*/
+tr:nth-child(even){
+  background-color: transparent;
+}
+
+/*Req 6e*/
+tr:nth-child(odd){
+  background-color: #d1d1d1;
+}
+/*Req 6f*/
+tr:hover {
+  background-color: rgb(126,8,32,.25);
+}
+
+/*Req 7*/
+table{
+  border: 2px solid #000000;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+/* Top left (first row, first cell of header) */
+thead tr:first-child th:first-child{
+  border-top-left-radius: 10px;
+}
+
+/* Top right (first row, last cell of header) */
+thead tr:last-child th:last-child{
+  border-top-right-radius: 10px;
+}
+
+/* Bottom left (last row, first cell of body) */
+tbody tr:last-child td:first-child{
+  border-bottom-left-radius: 10px;
+}
+
+/* Bottom right (last row, last cell of header) */
+tbody tr:last-child td:last-child{
+  border-bottom-right-radius: 10px;
+}
+
+/*Add selectors and rules here*/
+
+
+/*Req 8*/
+footer{
+  width:100%;
+  background:#000000;
+  text-align:center;
+  color: #FFFFFF;
+  min-height: 75px;
+  position: fixed;
+  bottom: 0px;
+}
+
