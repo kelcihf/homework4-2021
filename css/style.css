@@ -28,8 +28,8 @@ body{
   color: #000000;
   font-size: 16px;
   margin: 1.2em;
-  background-size: cover ;
-  background-image: url('images/pigeon-background.JPEG');
+  background-size: cover;
+  background-image: url('../images/pigeon-background.JPEG');
   background-position: center;
   background-color: #dddddd;
   font-family: 'Andika', sans-serif, sans-serif;
@@ -58,13 +58,11 @@ a{
 /*Add selector and rule here*/
 *{
   border: 3px;
-  border-style: dashed;
-  border-color: #417243;
 }
 
 /*Req 6a*/
 td{
-  align-items: center;
+  text-align: center;
   border-top: 2px solid #000000;
   padding: 10px;
 }
