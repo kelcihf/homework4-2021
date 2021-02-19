@@ -75,7 +75,8 @@ td{
   color: #FFFFFF;
   min-width: 125px;
   padding: 10px;
-  align-items: center;
+  text-align: center;
+  align-content: center;
   vertical-align: center;
   text-transform: uppercase;
   background-color: #7e0820;
@@ -107,6 +108,7 @@ table{
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
+  border-collapse: collapse;
 }
 
 /* Top left (first row, first cell of header) */
@@ -141,5 +143,6 @@ footer{
   min-height: 75px;
   position: fixed;
   bottom: 0px;
+  left: 0px;
 }
 
