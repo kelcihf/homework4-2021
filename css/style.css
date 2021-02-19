@@ -108,7 +108,6 @@ table{
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
-  border-collapse: collapse;
 }
 
 /* Top left (first row, first cell of header) */
